@@ -1,0 +1,254 @@
+{
+	"success_a": {
+		"event_id": "f2c2ba79-ecfd-4131-bb79-6e91176c54ba",
+		"event_type": "order.confirmed",
+		"order": {
+			"id": "order_2967778b-adc4-41c1-bc09-fc6087daacdc",
+			"subtotal": 100,
+			"remarks": "Place delivery at the restaurant’s backdoor to avoid disruption to service",
+			"remarks_extra": "Line item 1 and 2 are catch-weight items to be confirmed with manufacturing team",
+			"tax": "9",
+			"supplier_id": "org_b4e7c7e9-14de-4789-aaf8-828021baa013",
+			"supplier_name": "Foo Corp",
+			"previous_state": "PENDING",
+			"state": "CONFIRMED",
+			"po_id": "PO-781300094A",
+			"text_message": "Order for ASTON BUGIS Deliver on:29/11  20101164 NZ FZ Sirloin 200g (10pcs/pkt) -6pkt  20101160 NZ FZ Ribeye 200g (10pcs/pkt)-7pkt  TART SHELLS - CHOCOLATE - LARGE ROUND (LA ROSE NOIRE) -  LAMB RACK FRENCHED 8RIB CAP ON BONE IN - AUS FROZEN-pkt",
+			"buyer_company_id": "cust_65e3374b-978d-4f74-9df8-11d6b4a046cb",
+			"buyer_company_name": "ASTO",
+			"buyer_company_erp_ref": "10114699",
+			"delivery_location_id": "47f23591-12a7-405e-b32a-0a195be126b5",
+			"delivery_location_address": "7 Ang Mo Kio Street 66 #01-09 & #01-12, Flora Vista, 567708",
+			"delivery_date": "2023-11-07",
+			"delivery_fee": "25.00",
+			"taker_user_id": "user_2aRabcVFGYn16nOkRUUW5v1kNIK",
+			"taker_user_name": "JOSHUA"
+		},
+		"products": [
+			{
+				"product_id": "pdt_b6ee854a-dfb9-45dc-8a9a-03bbc67417b1",
+				"product_ref": "10801671",
+				"product_name": "FR FZ ZEST MANDARIN 500GMX12 ANDR",
+				"product_quantity": 3,
+				"product_unit_price": 20,
+				"product_uom": "CARTON"
+			}
+		]
+	},
+	"success_b": {
+		"event_id": "f2c2ba79-ecfd-4131-bb79-6e91176c54ba",
+		"event_type": "order.confrimed",
+		"order": {
+			"id": "order_2967778b-adc4-41c1-bc09-fc6087daacdc",
+			"subtotal": 100,
+			"remarks": "Place delivery at the restaurant’s backdoor to avoid disruption to service",
+			"remarks_extra": "Line item 1 and 2 are catch-weight items to be confirmed with manufacturing team",
+			"tax": "9",
+			"supplier_id": "org_b4e7c7e9-14de-4789-aaf8-828021baa013",
+			"supplier_name": "Foo Corp",
+			"previous_state": "ADJUSTED",
+			"state": "ADJUSTED_CONFIRMED",
+			"po_id": "PO-781300094A",
+			"text_message": "Order for ASTON BUGIS Deliver on:29/11  20101164 NZ FZ Sirloin 200g (10pcs/pkt) -6pkt  20101160 NZ FZ Ribeye 200g (10pcs/pkt)-7pkt  TART SHELLS - CHOCOLATE - LARGE ROUND (LA ROSE NOIRE) -  LAMB RACK FRENCHED 8RIB CAP ON BONE IN - AUS FROZEN-pkt",
+			"buyer_company_id": "cust_65e3374b-978d-4f74-9df8-11d6b4a046cb",
+			"buyer_company_name": "ASTO",
+			"buyer_company_erp_ref": "10114699",
+			"delivery_location_id": "47f23591-12a7-405e-b32a-0a195be126b5",
+			"delivery_location_address": "7 Ang Mo Kio Street 66 #01-09 & #01-12, Flora Vista, 567708",
+			"delivery_date": "2023-11-07",
+			"delivery_fee": "25.00",
+			"taker_user_id": "user_2aRabcVFGYn16nOkRUUW5v1kNIK",
+			"taker_user_name": "JOSHUA"
+		},
+		"products": [
+			{
+				"product_id": "pdt_b6ee854a-dfb9-45dc-8a9a-03bbc67417b1",
+				"product_ref": "10801671",
+				"product_name": "FR FZ ZEST MANDARIN 500GMX12 ANDR",
+				"product_quantity": 3,
+				"product_unit_price": 20,
+				"product_uom": "CARTON"
+			}
+		]
+	},
+	"failure_missmatch_product_id": {
+		"event_id": "f2c2ba79-ecfd-4131-bb79-6e91176c54ba",
+		"event_type": "order.confirmed",
+		"order": {
+			"id": "order_2967778b-adc4-41c1-bc09-fc6087daacdc",
+			"subtotal": 100,
+			"remarks": "Place delivery at the restaurant’s backdoor to avoid disruption to service",
+			"remarks_extra": "Line item 1 and 2 are catch-weight items to be confirmed with manufacturing team",
+			"tax": "9",
+			"supplier_id": "org_b4e7c7e9-14de-4789-aaf8-828021baa013",
+			"supplier_name": "Foo Corp",
+			"previous_state": "PENDING",
+			"state": "CONFIRMED",
+			"po_id": "PO-781300094A",
+			"text_message": "Order for ASTON BUGIS Deliver on:29/11  20101164 NZ FZ Sirloin 200g (10pcs/pkt) -6pkt  20101160 NZ FZ Ribeye 200g (10pcs/pkt)-7pkt  TART SHELLS - CHOCOLATE - LARGE ROUND (LA ROSE NOIRE) -  LAMB RACK FRENCHED 8RIB CAP ON BONE IN - AUS FROZEN-pkt",
+			"buyer_company_id": "cust_65e3374b-978d-4f74-9df8-11d6b4a046cb",
+			"buyer_company_name": "ASTO",
+			"buyer_company_erp_ref": "10114699",
+			"delivery_location_id": "47f23591-12a7-405e-b32a-0a195be126b5",
+			"delivery_location_address": "7 Ang Mo Kio Street 66 #01-09 & #01-12, Flora Vista, 567708",
+			"delivery_date": "2023-11-07",
+			"delivery_fee": "25.00",
+			"taker_user_id": "user_2aRabcVFGYn16nOkRUUW5v1kNIK",
+			"taker_user_name": "JOSHUA"
+		},
+		"products": [
+			{
+				"product_id": "pdt_b6ee854a-dfb9-45dc-8a9a-03bbc67417b1",
+				"product_ref": "SOME_NON_EXISTING_PRODUCT_ID",
+				"product_name": "FR FZ ZEST MANDARIN 500GMX12 ANDR",
+				"product_quantity": 3,
+				"product_unit_price": 20,
+				"product_uom": "CARTON"
+			}
+		]
+	},
+	"failure_missmatch_customer_id": {
+		"event_id": "f2c2ba79-ecfd-4131-bb79-6e91176c54ba",
+		"event_type": "order.confirmed",
+		"order": {
+			"id": "order_2967778b-adc4-41c1-bc09-fc6087daacdc",
+			"subtotal": 100,
+			"remarks": "Place delivery at the restaurant’s backdoor to avoid disruption to service",
+			"remarks_extra": "Line item 1 and 2 are catch-weight items to be confirmed with manufacturing team",
+			"tax": "9",
+			"supplier_id": "org_b4e7c7e9-14de-4789-aaf8-828021baa013",
+			"supplier_name": "Foo Corp",
+			"previous_state": "PENDING",
+			"state": "CONFIRMED",
+			"po_id": "PO-781300094A",
+			"text_message": "Order for ASTON BUGIS Deliver on:29/11  20101164 NZ FZ Sirloin 200g (10pcs/pkt) -6pkt  20101160 NZ FZ Ribeye 200g (10pcs/pkt)-7pkt  TART SHELLS - CHOCOLATE - LARGE ROUND (LA ROSE NOIRE) -  LAMB RACK FRENCHED 8RIB CAP ON BONE IN - AUS FROZEN-pkt",
+			"buyer_company_id": "cust_65e3374b-978d-4f74-9df8-11d6b4a046cb",
+			"buyer_company_name": "ASTO",
+			"buyer_company_erp_ref": "SOME_NON_EXISTING_CUSTOMER_ID",
+			"delivery_location_id": "47f23591-12a7-405e-b32a-0a195be126b5",
+			"delivery_location_address": "7 Ang Mo Kio Street 66 #01-09 & #01-12, Flora Vista, 567708",
+			"delivery_date": "2023-11-07",
+			"delivery_fee": "25.00",
+			"taker_user_id": "user_2aRabcVFGYn16nOkRUUW5v1kNIK",
+			"taker_user_name": "JOSHUA"
+		},
+		"products": [
+			{
+				"product_id": "pdt_b6ee854a-dfb9-45dc-8a9a-03bbc67417b1",
+				"product_ref": "10801671",
+				"product_name": "FR FZ ZEST MANDARIN 500GMX12 ANDR",
+				"product_quantity": 3,
+				"product_unit_price": 20,
+				"product_uom": "CARTON"
+			}
+		]
+	},
+	"failure_missing_product": {
+		"event_id": "f2c2ba79-ecfd-4131-bb79-6e91176c54ba",
+		"event_type": "order.confirmed",
+		"order": {
+			"id": "order_2967778b-adc4-41c1-bc09-fc6087daacdc",
+			"subtotal": 100,
+			"remarks": "Place delivery at the restaurant’s backdoor to avoid disruption to service",
+			"remarks_extra": "Line item 1 and 2 are catch-weight items to be confirmed with manufacturing team",
+			"tax": "9",
+			"supplier_id": "org_b4e7c7e9-14de-4789-aaf8-828021baa013",
+			"supplier_name": "Foo Corp",
+			"previous_state": "PENDING",
+			"state": "CONFIRMED",
+			"po_id": "PO-781300094A",
+			"text_message": "Order for ASTON BUGIS Deliver on:29/11  20101164 NZ FZ Sirloin 200g (10pcs/pkt) -6pkt  20101160 NZ FZ Ribeye 200g (10pcs/pkt)-7pkt  TART SHELLS - CHOCOLATE - LARGE ROUND (LA ROSE NOIRE) -  LAMB RACK FRENCHED 8RIB CAP ON BONE IN - AUS FROZEN-pkt",
+			"buyer_company_id": "cust_65e3374b-978d-4f74-9df8-11d6b4a046cb",
+			"buyer_company_name": "ASTO",
+			"buyer_company_erp_ref": "SOME_NON_EXISTING_CUSTOMER_ID",
+			"delivery_location_id": "47f23591-12a7-405e-b32a-0a195be126b5",
+			"delivery_location_address": "7 Ang Mo Kio Street 66 #01-09 & #01-12, Flora Vista, 567708",
+			"delivery_date": "2023-11-07",
+			"delivery_fee": "25.00",
+			"taker_user_id": "user_2aRabcVFGYn16nOkRUUW5v1kNIK",
+			"taker_user_name": "JOSHUA"
+		},
+		"products": [
+			{
+				"product_id": "pdt_b6ee854a-dfb9-45dc-8a9a-03bbc67417b1",
+				"product_ref": null,
+				"product_name": "FR FZ ZEST MANDARIN 500GMX12 ANDR",
+				"product_quantity": null,
+				"product_unit_price": 20,
+				"product_uom": "CARTON"
+			}
+		]
+	},
+	"failure_missing_customer": {
+		"event_id": "f2c2ba79-ecfd-4131-bb79-6e91176c54ba",
+		"event_type": "order.confirmed",
+		"order": {
+			"id": "order_2967778b-adc4-41c1-bc09-fc6087daacdc",
+			"subtotal": 100,
+			"remarks": "Place delivery at the restaurant’s backdoor to avoid disruption to service",
+			"remarks_extra": "Line item 1 and 2 are catch-weight items to be confirmed with manufacturing team",
+			"tax": "9",
+			"supplier_id": "org_b4e7c7e9-14de-4789-aaf8-828021baa013",
+			"supplier_name": "Foo Corp",
+			"previous_state": "PENDING",
+			"state": "CONFIRMED",
+			"po_id": "PO-781300094A",
+			"text_message": "Order for ASTON BUGIS Deliver on:29/11  20101164 NZ FZ Sirloin 200g (10pcs/pkt) -6pkt  20101160 NZ FZ Ribeye 200g (10pcs/pkt)-7pkt  TART SHELLS - CHOCOLATE - LARGE ROUND (LA ROSE NOIRE) -  LAMB RACK FRENCHED 8RIB CAP ON BONE IN - AUS FROZEN-pkt",
+			"buyer_company_id": "cust_65e3374b-978d-4f74-9df8-11d6b4a046cb",
+			"buyer_company_name": "ASTO",
+			"buyer_company_erp_ref": null,
+			"delivery_location_id": "47f23591-12a7-405e-b32a-0a195be126b5",
+			"delivery_location_address": "7 Ang Mo Kio Street 66 #01-09 & #01-12, Flora Vista, 567708",
+			"delivery_date": "2023-11-07",
+			"delivery_fee": "25.00",
+			"taker_user_id": "user_2aRabcVFGYn16nOkRUUW5v1kNIK",
+			"taker_user_name": "JOSHUA"
+		},
+		"products": [
+			{
+				"product_id": "pdt_b6ee854a-dfb9-45dc-8a9a-03bbc67417b1",
+				"product_ref": "10801671",
+				"product_name": "FR FZ ZEST MANDARIN 500GMX12 ANDR",
+				"product_quantity": 3,
+				"product_unit_price": 20,
+				"product_uom": "CARTON"
+			}
+		]
+	},
+	"failure_missing_delievery_date": {
+		"event_id": "f2c2ba79-ecfd-4131-bb79-6e91176c54ba",
+		"event_type": "order.confirmed",
+		"order": {
+			"id": "order_2967778b-adc4-41c1-bc09-fc6087daacdc",
+			"subtotal": 100,
+			"remarks": "Place delivery at the restaurant’s backdoor to avoid disruption to service",
+			"remarks_extra": "Line item 1 and 2 are catch-weight items to be confirmed with manufacturing team",
+			"tax": "9",
+			"supplier_id": "org_b4e7c7e9-14de-4789-aaf8-828021baa013",
+			"supplier_name": "Foo Corp",
+			"previous_state": "PENDING",
+			"state": "CONFIRMED",
+			"po_id": "PO-781300094A",
+			"text_message": "Order for ASTON BUGIS Deliver on:29/11  20101164 NZ FZ Sirloin 200g (10pcs/pkt) -6pkt  20101160 NZ FZ Ribeye 200g (10pcs/pkt)-7pkt  TART SHELLS - CHOCOLATE - LARGE ROUND (LA ROSE NOIRE) -  LAMB RACK FRENCHED 8RIB CAP ON BONE IN - AUS FROZEN-pkt",
+			"buyer_company_id": "cust_65e3374b-978d-4f74-9df8-11d6b4a046cb",
+			"buyer_company_name": "ASTO",
+			"buyer_company_erp_ref": "10114699",
+			"delivery_location_id": "47f23591-12a7-405e-b32a-0a195be126b5",
+			"delivery_location_address": "7 Ang Mo Kio Street 66 #01-09 & #01-12, Flora Vista, 567708",
+			"delivery_date": null,
+			"delivery_fee": "25.00",
+			"taker_user_id": "user_2aRabcVFGYn16nOkRUUW5v1kNIK",
+			"taker_user_name": "JOSHUA"
+		},
+		"products": [
+			{
+				"product_id": "pdt_b6ee854a-dfb9-45dc-8a9a-03bbc67417b1",
+				"product_ref": "10801671",
+				"product_name": "FR FZ ZEST MANDARIN 500GMX12 ANDR",
+				"product_quantity": 3,
+				"product_unit_price": 20,
+				"product_uom": "CARTON"
+			}
+		]
+	},
+}
